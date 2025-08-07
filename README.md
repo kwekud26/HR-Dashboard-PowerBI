@@ -1,14 +1,18 @@
-
 #  HR Dashboard – Power BI Project
 
-This HR Dashboard was developed in **Power BI** using Excel data provided as part of a data visualization challenge. It delivers a comprehensive overview of employee demographics, salary trends, job role distribution, and headcount insights, enabling better decision-making for HR and executive teams.
+This HR Dashboard was developed in **Power BI** using fictional employee data. It delivers a comprehensive overview of workforce demographics, salary trends, role distribution, and headcount metrics—empowering HR and executive teams to make informed, data-driven decisions.
 
-<img width="842" height="462" alt="image" src="https://github.com/user-attachments/assets/7f40c9ca-eddc-4842-aa5d-bf6f7fd00ac7" />
+![Main Dashboard Preview](https://github.com/user-attachments/assets/7f40c9ca-eddc-4842-aa5d-bf6f7fd00ac7)
+
+---
+
+##  Project Links
+- [ View GitHub Repository](https://github.com/kwekud26/HR-Dashboard-PowerBI)
+- [ Data Portfolio](https://www.datascienceportfol.io/kaydarko7)
 
 ---
 
 ##  Table of Contents
-
 1. [Project Overview](#project-overview)  
 2. [Project Scope](#project-scope)  
 3. [Business Objective](#business-objective)  
@@ -19,181 +23,169 @@ This HR Dashboard was developed in **Power BI** using Excel data provided as par
 8. [Data Cleaning and Processing](#data-cleaning-and-processing)  
 9. [Key Metrics and KPIs](#key-metrics-and-kpis)  
 10. [Dashboard Insights](#dashboard-insights)  
-    - [Headcount Overview](#headcount-overview)  
-    - [Job Title Distribution](#job-title-distribution)  
-    - [Gender Representation](#gender-representation)  
-    - [Age Distribution](#age-distribution)  
-    - [Salary by Qualification](#salary-by-qualification)  
-    - [Salary Summary by Job Title](#salary-summary-by-job-title)  
-    - [Employee Growth Over Time](#employee-growth-over-time)  
-    - [Top and Bottom Earners](#top-and-bottom-earners)  
-    - [Leave Balance Analysis](#leave-balance-analysis)  
 11. [Recommendations](#recommendations)  
-12. [Conclusion](#conclusion)
+12. [Conclusion](#conclusion)  
+13. [Built With](#built-with)  
+14. [Roadmap](#roadmap)  
+15. [Contact](#contact)  
+
 
 ---
 
 ##  Project Overview
 
-The dashboard provides a real-time, visual summary of workforce data, helping HR departments and business leaders monitor and analyze critical employee metrics across departments, roles, gender, and qualifications.
+This dashboard visualizes HR data to provide actionable insights for workforce planning, compensation analysis, gender equity, and employee retention. All insights are delivered through a clean, interactive Power BI report.
 
 ---
 
 ##  Project Scope
 
-- Track employee demographics, salary distribution, and job roles  
-- Visualize trends over time such as hiring and retention  
-- Provide a gender-based breakdown of headcount  
-- Connect employee qualifications to salary ranges
+- Analyze employee demographics, job roles, and compensation  
+- Track hiring trends, leave balances, and role distribution  
+- Visualize education levels in relation to salary  
+- Segment insights by age, gender, and job level  
 
 ---
 
 ##  Business Objective
 
-To empower HR and business decision-makers with interactive, data-driven insights to:
-- Optimize workforce planning  
-- Identify salary and gender disparities  
-- Monitor growth and retention trends  
-- Track leave balances across departments
+To help HR teams:
+- Optimize hiring and workforce structure  
+- Address salary and leave disparities  
+- Monitor employee growth and tenure  
+- Support fair pay and team planning decisions
 
 ---
 
 ##  Document Purpose
 
-This documentation outlines the development process, insights, and skills applied in building the HR Dashboard. It serves as both a learning artifact and a portfolio-ready project.
+This document outlines the workflow, visual design, and analytical decisions made while creating the HR Dashboard. It also demonstrates data storytelling and dashboard development capabilities.
 
 ---
 
 ##  Use Case
 
 **Scenario:**  
-An HR manager needs to quickly assess team structure, track salary bands, evaluate the impact of educational qualifications on pay, and monitor hiring trends. This dashboard offers an all-in-one solution for those needs.
+An HR leader wants to evaluate their workforce across key factors like salary bands, educational qualifications, leave balance, and gender breakdown. This dashboard provides those insights at a glance.
 
 ---
 
 ##  Skills Demonstrated
 
-- Power BI Desktop: dashboard development and visual storytelling  
-- Power Query: data transformation and cleaning  
-- DAX: calculated columns and KPIs  
-- Excel: data preparation and wrangling  
-- Insight communication and storytelling  
-- GitHub version control and project documentation
+- Power BI (Dashboarding, filtering, formatting)  
+- Power Query (Data prep, ETL)  
+- DAX (KPI calculations and measures)  
+- Excel (Raw data wrangling)  
+- Visual storytelling for HR insights  
+- GitHub version control and project documentation  
 
 ---
 
 ##  Data Source
 
-- **Source:** This dataset was provided by **Maven Analytics** as part of a data visualization challenge.  
-- **Disclaimer:** The data is **fictional** and was generated for educational and portfolio-building purposes only.  
-- **Format:** Excel (.xlsx) file containing employee-level data such as:
+- Fictional HR dataset used for skill demonstration and portfolio purposes  
+- Format: Excel (.xlsx)  
+- Fields include:  
   - Job Title  
   - Salary  
-  - Age  
   - Gender  
-  - Date of Joining  
+  - Age  
+  - Date of Hire  
   - Leave Balance  
-  - Education Qualification  
+  - Education Level  
 
 ---
 
 ##  Data Cleaning and Processing
 
-- Removed duplicates and null values  
-- Standardized qualification levels and job titles  
-- Created new fields such as cumulative headcount, average leave balance, and salary tiers  
-- Built DAX measures for average salary, count, and leave balance analysis
+- Removed nulls and duplicates  
+- Standardized education and job title naming conventions  
+- Created custom fields: salary tiers, tenure, growth trends  
+- DAX measures for headcount, salary averages, and leave balance analytics
 
 ---
 
 ##  Key Metrics and KPIs
 
-- Total Headcount: **161**  
-- Average Salary: **$54,231**  
-- Avg. Leave Balance: **16.4 days**  
-- Employees with LBL > 20 days: **29**
+-  Total Headcount: **161**  
+-  Avg. Salary: **$54,231**  
+-  Avg. Leave Balance: **16.4 days**  
+-  Employees with >20 LBL: **29**
 
 ---
 
 ##  Dashboard Insights
 
 ###  Headcount Overview
-Displays a summary of employee count, average salary, and leave statistics.
+![Headcount Preview](https://github.com/user-attachments/assets/c42f1e36-52c8-4410-a75d-383539b56334)
 
-<img width="842" height="462" alt="image" src="https://github.com/user-attachments/assets/c42f1e36-52c8-4410-a75d-383539b56334" />
-
-
-
-### Job Title Distribution
-Bar chart showing the number of employees in each role, highlighting high-volume roles like Packaging Associate and Production Operator.
-
-<img width="666" height="277" alt="image" src="https://github.com/user-attachments/assets/0a2d26e3-d3af-4818-a9d8-171904c981c5" />
-
-
+###  Job Title Distribution
+![Job Titles](https://github.com/user-attachments/assets/0a2d26e3-d3af-4818-a9d8-171904c981c5)
 
 ###  Gender Representation
-Pie chart showing **54.7% Female** and **45.3% Male** staff.
-
-<img width="448" height="258" alt="image" src="https://github.com/user-attachments/assets/12988bd0-4cf2-462a-a624-ca9f06406e96" />
-
-
+![Gender Pie](https://github.com/user-attachments/assets/12988bd0-4cf2-462a-a624-ca9f06406e96)
 
 ###  Age Distribution
-Histogram displaying the age spread of employees, with most between 20-40 years.
+![Age Histogram](https://github.com/user-attachments/assets/6662e157-1dea-411b-96eb-a6c951bc0cb5)
 
-<img width="584" height="344" alt="image" src="https://github.com/user-attachments/assets/6662e157-1dea-411b-96eb-a6c951bc0cb5" />
-
-
-
-
-### Salary by Qualification
-Scatter plot ranking average salary from High School to Master’s degree, showing correlation between higher education and increased earnings.
-
-<img width="830" height="458" alt="image" src="https://github.com/user-attachments/assets/6414c2e6-9b7f-466a-95f0-e5414a7bde36" />
-
-
+###  Salary by Qualification
+![Education vs Salary](https://github.com/user-attachments/assets/6414c2e6-9b7f-466a-95f0-e5414a7bde36)
 
 ###  Salary Summary by Job Title
-Table showing average, min, and max salary for each role with headcount. Highest average salary: Product Manager at $82,825.
-
-<img width="363" height="195" alt="image" src="https://github.com/user-attachments/assets/4b4693c5-bf76-4ec2-9aea-48557bf8f3b9" />
-
-
+![Salary by Role](https://github.com/user-attachments/assets/4b4693c5-bf76-4ec2-9aea-48557bf8f3b9)
 
 ###  Employee Growth Over Time
-Line graph showing cumulative hiring trend from 2017–2023.
-
-<img width="846" height="530" alt="image" src="https://github.com/user-attachments/assets/517946a4-59c5-47d9-8b02-8dc4b46c194b" />
-
-
+![Hiring Trend](https://github.com/user-attachments/assets/517946a4-59c5-47d9-8b02-8dc4b46c194b)
 
 ###  Top and Bottom Earners
-Lists the top three and bottom three employees by salary, highlighting equity or pay gaps.
-
-<img width="1049" height="542" alt="image" src="https://github.com/user-attachments/assets/70f0d36f-ba46-421b-886a-f9a9ff21e0e3" />
-
-
+![Top/Bottom Salaries](https://github.com/user-attachments/assets/70f0d36f-ba46-421b-886a-f9a9ff21e0e3)
 
 ###  Leave Balance Analysis
-Comparison of average leave balance by job title and employees with LBL over 20 days.
-
-<img width="540" height="265" alt="image" src="https://github.com/user-attachments/assets/cf99d199-5ef1-46a1-8aea-8777e1547226" />
+![Leave Analysis](https://github.com/user-attachments/assets/cf99d199-5ef1-46a1-8aea-8777e1547226)
 
 ---
 
 ##  Recommendations
 
-- Review and optimize roles with high leave balances  
-- Explore retention strategies for roles with higher turnover  
-- Monitor salary equity across gender and qualification  
-- Align hiring strategies with role-specific headcount trends
+- Review roles with excess leave balances for burnout or disengagement  
+- Address potential pay equity issues by role and gender  
+- Monitor growth trends to support workforce expansion  
+- Reassess high-turnover roles for better retention strategies  
 
 ---
 
 ##  Conclusion
 
-This HR Dashboard brings workforce data to life through interactive storytelling. It enables proactive decision-making and highlights areas where HR can drive meaningful change. Built in Power BI and powered by clean, structured data, it’s a model for modern HR reporting.
+This HR dashboard supports real-time decision-making with clear visual storytelling and performance metrics. It combines Power BI with effective data transformation and modeling to deliver a high-value analytics solution for modern HR teams.
 
 ---
 
-**Created by Kweku Darko**
+##  Built With
+
+- Power BI Desktop  
+- Power Query  
+- DAX  
+- Excel  
+- GitHub  
+
+---
+
+##  Roadmap
+
+- [ ] Integrate GPT‑4 summaries for automated insight narratives  
+- [ ] Schedule report refresh with Power Automate  
+- [ ] Embed dashboard in online portfolio  
+- [ ] Include benchmarking comparison vs. market averages  
+
+---
+
+##  Contact
+
+**Created by:** Kweku Darko  
+ kaydarko7@gmail.com  
+ [LinkedIn](https://www.linkedin.com/in/kweku-darko-b880b4161)  
+ [Portfolio](https://www.datascienceportfol.io/kaydarko7)
+
+---
+
+> _Note: This project uses fictional data and was developed for demonstration and learning purposes only._
